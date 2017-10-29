@@ -1,7 +1,7 @@
 module.exports = {
-    FB_PAGE_TOKEN: '',
-    FB_VERIFY_TOKEN: '',
-    API_AI_CLIENT_ACCESS_TOKEN: '',
-    FB_APP_SECRET: '',
-    SERVER_URL: "",
+    FB_PAGE_TOKEN: 'EAAB4E8u230cBACDhP7xlyOFSYc1WXZB4G8OzTlmHrmPIl2h9aiWMw5iOknCQIZBlCox8G0BHr4khdMpJ62eeQy3ZArKt8P8khliCHRFNmKvOtuDEund0ppTReZCY3NBX2UW9QPXIfgTNK1e39ZCwoGfMZA8WBBe5AkAEy14Jo16wZDZD',
+    FB_VERIFY_TOKEN: 'uni-bot-dev',
+    API_AI_CLIENT_ACCESS_TOKEN: '723278e350744bedacd152e160b4fd63',
+    FB_APP_SECRET: 'd3f43210661a42b17405d04bc435e1f2',
+    SERVER_URL: "https://hellouni-chatbot-fb-dev.herokuapp.com/",
 };
