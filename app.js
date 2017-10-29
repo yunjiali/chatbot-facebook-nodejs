@@ -184,6 +184,23 @@ function handleEcho(messageId, appId, metadata) {
 
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
+		case 'unibot.input.service':
+			let replies = [{
+				content_type:"text",
+				title:"course",
+				payload:"course"
+			}, {
+				content_type: "text",
+				title: "scholarships",
+				payload: "scholarships"
+			},
+			{
+				content_type: "text",
+				title: "university",
+				payload: "university"
+			}]
+			sendQuickReply(sender, responseText, replies)
+			break;
 		default:
 			//unhandled action, just send back the text
 			sendTextMessage(sender, responseText);
